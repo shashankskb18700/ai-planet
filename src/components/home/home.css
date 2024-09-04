@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.banner {
+  height: calc(63rem - 6.4rem);
+  background: #003145;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.banner > div:nth-child(1) {
+  width: 70.5rem;
+  height: 34.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 6.2rem;
+  position: relative;
+}
+.banner span {
+  position: absolute;
+  height: 11.591rem;
+  width: 0.971rem;
+  background: #ffce5c;
+  left: 0;
+  top: 0;
+}
+.banner p:nth-child(1) {
+  font-size: 4.8rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  line-height: 5.6rem;
+  height: 112px;
+  width: 64.3rem;
+}
+
+.banner p:nth-child(2) {
+  font-family: "Poppins";
+  width: 53.1rem;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.banner button {
+  width: 19.8rem;
+  height: 4.7rem;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+}
+
+.perks {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  width: 100vw;
+  height: 90.2rem;
+}
+.perks > p {
+  font-family: "poppins";
+  font-size: 32px;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 90px 0;
+}
+
+.perks > p > span {
+  color: red;
+  font-family: "poppins";
+  font-size: 32px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.perks > div {
+  width: 111.9rem;
+  height: 59.3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-content: center;
+  gap: 1rem;
+}

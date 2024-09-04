@@ -1,0 +1,74 @@
+.impDetails {
+  width: 100vw;
+  height: 41.9rem;
+  background-color: #003145;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.impDetails > div {
+  width: 80vw;
+  height: 22.8rem;
+}
+.dateDetails {
+}
+.dateDetails p {
+  width: fit-content;
+  font-size: 14px;
+  line-height: 12px;
+  background: #ffce5c;
+
+  padding: 1rem 2rem;
+  font-family: "inter";
+}
+
+.detailTitle {
+  font-size: 40px;
+  font-family: "inter";
+  margin: 2rem 0rem;
+  color: white;
+}
+
+.detailLevel {
+  font-size: 14px;
+  line-height: 12px;
+  padding: 1rem 2rem;
+  width: fit-content;
+  font-size: "inter";
+  background-color: white;
+  color: black;
+}
+.description {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 2rem 4rem;
+}
+
+.detailSubHeader {
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 30px;
+  width: 100vw;
+  padding: 1rem 2rem;
+  font-family: "inter";
+  box-shadow: 0 8px 6px -6px #dde6ed;
+}
+.detailSubHeader button {
+  margin-left: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.detailSubHeader button:nth-child(1) {
+  background: #44924c;
+  border: 2px solid #44924c;
+  border: none;
+  color: white;
+}
+
+.detailSubHeader button:nth-child(2) {
+  border: none;
+  border: 2px solid #44924c;
+  color: #44924c;
+  background-color: white;
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.dataBanner {
+  display: flex;
+  align-items: flex-end;
+  /* width: 22.2rem; */
+  /* height: 5.5rem; */
+}
+
+.dataBanner img {
+  width: 55px;
+  height: 55px;
+}
+.dataBanner div {
+  width: 18.9rem;
+  height: 4.2rem;
+  padding-left: 2rem;
+}
+
+.dataBanner p:nth-child(1) {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  font-family: "inter";
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+.dataBanner p:nth-child(2) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "inter";
+  color: #ffffff;
+}
+.statsBanner {
+  width: 100vw;
+  height: 20rem;
+  background: #002a3b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stats {
+  width: 107.5rem;
+  height: 5.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.stats span {
+  width: 1px;
+  height: 38px;
+  background: #c4c4c4;
+}
