@@ -46,7 +46,6 @@ const Form = () => {
       reader.onloadend = () => {
         setFormValues({ ...formValues, [name]: reader.result });
         setShowImage(reader.result);
-        console.log(reader.result);
       };
 
       reader.readAsDataURL(file);
